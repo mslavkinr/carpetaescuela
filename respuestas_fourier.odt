@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:draw:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:number:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:rdfa="http://www.w3.org/1999/xhtml/vocab#" xmlns:field="urn:oasis:names:tc:opendocument:xmlns:field:1.0" office:version="1.2">
+  <office:body>
+    <office:text>
+      <text:p text:style-name="Heading1">CENTRO DE EDUCACIÓN TÉCNICA N°28</text:p>
+      <text:p text:style-name="Text_20_body">San Carlos de Bariloche – Rio Negro</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Heading2">Trabajo Práctico: Circuitos Eléctricos y Redes</text:p>
+      <text:p text:style-name="Text_20_body">Análisis de Armónicos con Series de Fourier</text:p>
+      <text:p text:style-name="Text_20_body">2° Ciclo Superior 2025</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Heading2">RESPUESTAS</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Heading3">1) Concepto de Serie de Fourier</text:p>
+      <text:p text:style-name="Text_20_body">"La serie de Fourier se usa en análisis de señales para representar las componentes senoidales de una onda periódica no senoidal, es decir, <text:span text:style-name="Strong">descomponer una función periódica compleja en una suma de funciones senoidales y cosenoidales de diferentes frecuencias armónicas</text:span>."</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body">O también válido: "...permite expresar cualquier señal periódica como la superposición de infinitas ondas senoidales y cosenoidales cuyas frecuencias son múltiplos enteros de la frecuencia fundamental."</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Heading3">2) Diferencia entre Simetrías de Onda</text:p>
+      <text:p text:style-name="Heading4">Onda PAR:</text:p>
+      <text:list>
+        <text:list-item>
+          <text:p text:style-name="Text_20_body">Es simétrica con respecto al eje vertical (eje de ordenadas).</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Text_20_body">Cumple la condición matemática: f(t) = f(-t)</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Text_20_body">La función tiene el mismo valor para argumentos positivos y negativos.</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Text_20_body">En su desarrollo en serie de Fourier, contiene solo componentes cosenoidales (An) y la componente de continua (A₀).</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Text_20_body">No presenta componentes senoidales (Bn = 0).</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Text_20_body">Ejemplos: función coseno, parábola, función valor absoluto.</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Heading4">Onda IMPAR:</text:p>
+      <text:list>
+        <text:list-item>
+          <text:p text:style-name="Text_20_body">Es antisimétrica u opuesta con respecto al origen de coordenadas.</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Text_20_body">Cumple la condición matemática: f(t) = -f(-t)</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Text_20_body">La función cambia de signo cuando se cambia el signo del argumento.</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Text_20_body">En su desarrollo en serie de Fourier, contiene solo componentes senoidales (Bn).</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Text_20_body">No presenta componentes cosenoidales (An = 0) ni componente de continua (A₀ = 0).</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Text_20_body">Ejemplos: función seno, función cúbica, diente de sierra simétrico.</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Heading3">3) Descripción de Componentes</text:p>
+      <text:p text:style-name="Heading4">a) Fórmula General de Serie de Fourier</text:p>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">f(t)</text:span> = La función periódica en el dominio del tiempo que se desea analizar. Representa la onda o señal completa resultante de la sumatoria de todas sus componentes armónicas.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">A₀</text:span> = La componente continua o valor medio de la función. Representa el nivel de corriente continua (DC) o el desplazamiento vertical de la onda respecto al eje horizontal.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">A₁ cos α</text:span> = El primer armónico cosenoidal (fundamental en términos de componentes pares). Representa la componente de frecuencia fundamental con amplitud A₁. El ángulo α representa la fase.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">A₃ cos 3α</text:span> = El tercer armónico cosenoidal. Representa la componente de la señal cuya frecuencia es tres veces la fundamental, con amplitud A₃.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">B₂ sen 2β</text:span> = El segundo armónico senoidal. Representa la componente de la señal cuya frecuencia es dos veces la fundamental, con amplitud B₂. El ángulo β representa la fase senoidal.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Heading4">b) fn = n * f</text:p>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">fn</text:span> = Frecuencia del n-ésimo armónico (en Hz o ciclos por segundo).</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">n</text:span> = Número entero del armónico (1, 2, 3, 4, ...). n = 1 corresponde a la frecuencia fundamental.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">f</text:span> = Frecuencia fundamental de la onda periódica (primer armónico, n = 1). Es la frecuencia más baja de la serie.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">Significado:</text:span> Indica que cada armónico tiene una frecuencia que es un múltiplo entero de la frecuencia fundamental. Por ejemplo, si f = 60 Hz, entonces el segundo armónico es 120 Hz, el tercero 180 Hz, etc.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Heading4">c) Vn = 4*V / (n*π)</text:p>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">Vn</text:span> = Amplitud o magnitud del n-ésimo armónico (en voltios o unidades de amplitud).</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">V</text:span> = Amplitud de la fundamental o amplitud de referencia de la onda.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">n</text:span> = Número del armónico (1, 2, 3, 4, ...).</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">π</text:span> = Constante pi (aproximadamente 3.14159...).</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">Significado:</text:span> Esta es la fórmula específica que da la amplitud de cada armónico para una onda cuadrada. Muestra que la amplitud disminuye conforme aumenta el número del armónico (inversamente proporcional a n). Solo existen armónicos impares para una onda cuadrada (n = 1, 3, 5, 7...).</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Heading4">d) V(t) = V(t) sin[ωn(t)]</text:p>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">V(t)</text:span> = La tensión instantánea (voltaje) en función del tiempo. Es el valor que toma la señal en cada instante t.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">V(t)</text:span> (antes del seno) = La amplitud de la componente armónica n-ésima.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">sin</text:span> = Función trigonométrica seno.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">ωn</text:span> = Frecuencia angular del n-ésimo armónico (en radianes por segundo). Se relaciona con la frecuencia por: ωn = 2π*fn = 2π*n*f</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">t</text:span> = Variable tiempo (en segundos).</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">[ωn(t)]</text:span> = El argumento del seno, que representa el ángulo (en radianes) que varía con el tiempo. Indica la fase instantánea de la oscilación.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Strong">Significado:</text:span> Representa la expresión matemática de una componente armónica individual en función del tiempo, expresada en forma senoidal con su frecuencia angular específica.</text:p>
+    </office:text>
+  </office:body>
+</office:document-content>
